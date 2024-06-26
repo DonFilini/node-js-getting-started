@@ -2,24 +2,24 @@
   "name": "node-js-getting-started",
   "version": "0.3.0",
   "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "20.x"
-  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "build": "echo 'Build step not defined'"
   },
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.15.2"
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "tape": "^5.7.4"
+    "tape": "^5.0.1"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DonFilini/node-js-getting-started"
+    "url": "https://github.com/DonFilini/node-js-getting-started.git"
   },
   "keywords": [
     "node",
